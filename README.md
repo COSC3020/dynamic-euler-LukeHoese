@@ -23,3 +23,5 @@ I certify that I have listed all sources used to complete this exercise, includi
 What is the worst-case big $\Theta$ time complexity of your algorithm?
 
 Because we have "simplified" our factorial function down to a constant time operation for each call, the overall time complexity is only $\Theta$(n), because our loop iterates over all values of n, performing the constant time factorial within.
+
+In latest iteration factorial function is no longer used at all, and our loop simply performs the constant time operation internally for each iteration, however time complexity does not change.
